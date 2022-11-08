@@ -2,6 +2,7 @@ export default {
     lang: 'en-US',
     title: 'David Silva',
     description: 'My Personal Blog',
+    base: '/me/',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
