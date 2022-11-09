@@ -8,6 +8,7 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
-  - title: Working in progress
-    details: Posts will be put here soon
+  - title: Ensure a beaut code with Laravel Pint
+    details: Learn a little bit about Laravel Pint
+    link: /posts/ensure-a-beaut-code-with-laravel-pint
 ---
