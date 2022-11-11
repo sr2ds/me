@@ -11,4 +11,13 @@ features:
   - title: Ensure a beaut code with Laravel Pint
     details: Learn a little bit about Laravel Pint
     link: /posts/2022/ensure-a-beaut-code-with-laravel-pint
+
+  - title: Português - CheckList to do a good Rest API
+    details: Some ideas about what one good api need
+    link: /posts/2022/PT-checklist-to-API-Rest.md
+    
+  - title: Português - My experience with Rust Language
+    details: I wrote a little abit about my experience learning Rust
+    link: /posts/2022/PT-rust-language-and-me
+    
 ---
