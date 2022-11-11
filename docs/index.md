@@ -10,5 +10,5 @@ hero:
 features:
   - title: Ensure a beaut code with Laravel Pint
     details: Learn a little bit about Laravel Pint
-    link: /posts/ensure-a-beaut-code-with-laravel-pint
+    link: /posts/2022/ensure-a-beaut-code-with-laravel-pint
 ---
