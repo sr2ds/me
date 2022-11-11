@@ -7,6 +7,7 @@ export default {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Who am I', link: '/about' },
+            { text: 'Archive', link: '/archive' },
             {
                 text: 'Social',
                 items: [
