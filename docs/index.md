@@ -8,6 +8,11 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
+
+  - title: Testing and Mocking with Laravel
+    details: A simple explanation about mock with Stripe example
+    link: /posts/2022/testing-and-mocking-with-laravel
+
   - title: Ensure a beaut code with Laravel Pint
     details: Learn a little bit about Laravel Pint
     link: /posts/2022/ensure-a-beaut-code-with-laravel-pint
