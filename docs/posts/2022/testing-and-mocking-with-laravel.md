@@ -1,5 +1,30 @@
 # Testing and Mocking with Laravel
 
+## Personal note about Automatized Tests - Feature/Unit/Integrated Tests
+
+Before all, let's talk a little bit about the important of automatized tests in our work.
+
+To be honest, I don't know how I lived before without this. I spent a long time testing the things manually, broking the old codes, etc. And, maybe the worst, thinking wrong.
+I'll to explain.
+
+When you do your test about something, you have the opportunity to really to think about the design of your real code, because you need do it simple, re-usable and with less dependences.
+
+If you try do you test as TDD, making your test first and just after write your real code. Improving and testing again, it's so more easly do a refactor in 'task time', keeping less issues to the future.
+
+![Image of TDD - IBM](assets/tdd-red-green-refactoring-v3.png)
+
+I get this image from this awesome IBM Article [5 steps of test-driven development](https://developer.ibm.com/articles/5-steps-of-test-driven-development/)
+
+Here, I'll put my personal good points about, why we need write tests:
+
+* Help to do make good deliveries;
+* Can to refactor without fear;
+* Improve your code design - your test is the first 'customer' of your implementation;
+* Improve your code design - you will to think better to make your code easily to be tested;
+* If you to write one test for each new bug foun, maybe you never more will take the same bugs.
+
+## Testing external services
+
 Working with micro-services or external services integrated, sometimes we need to simulate the behavior of some resources, for example, HTTP calls. The mock is a way to simulate this and ensure the quality of your feature without to need the external resource inside your test.
 
 Let's to say that you have a integration with Stripe Payments and you need to test your software but don't want to create a new customer or new billings every time when you run your tests. To do it, we need mock the Stripe behavior.
