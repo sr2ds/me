@@ -1,6 +1,6 @@
 # Testing and Mocking with Laravel
 
-## Personal note about Automatized Tests - Feature/Unit/Integrated Tests
+Note: this post will be bigger and I'm writing more and fixing errors weekly.
 
 Before all, let's talk a little bit about the important of automatized tests in our work.
 
@@ -23,6 +23,56 @@ Here, I'll put my personal good points about, why we need write tests:
 * Improve your code design - you will to think better to make your code easily to be tested;
 * If you to write one test for each new bug foun, maybe you never more will take the same bugs.
 
+## Testing a RestFul API 
+
+A simple way to test our REST API's and try keep safe some business contractor about attributes and API behavior is with Features tests.
+
+I like most simple as possible and I'll show you some crud examples here!
+
+### Testing creation of resources
+
+For the simple cases, the main goal about the a creation of some resource is store the data inside our database, we can start with something like this:
+
+```php
+ public function testCreateTask()
+ {
+    $data = Task::factory()->make(); // using Factory to built a object of something
+
+    $this->postJson('/tasks', $data->toArray()) // making a HTTP POST call with our task to create
+        ->assertCreated(); // asserting if the HTTP response was correct 
+
+    $this->assertDatabaseHas('tasks', $data->toArray()); // checking if the data was stored in database
+}
+```
+
+Let's check some important points here:
+
+* Use factory to deal with our resources;
+* Asserting correct response of our call;
+* Asserting if the data was stored in database.
+
+It's really simple but power, of course we can improve this and also we need more tests to ensure complete our API cases.
+
+### Testing validations in creation of resources
+
+Usually we need to validate the data before try store in database, usually we do it with custom Requests or with basic Validators. In all cases, we can to delivery a status `422` if the data is not valid and also we can built some test to validate it:
+
+```php
+ public function testCreateTaskReturning422WhenDataWasInvalid()
+ {
+    $data = ['tite' => 'title of task with attribute name wrong'];
+
+    $this->postJson('/tasks', $data) // making a HTTP POST call with our wrong task to create
+        ->assertUnprocessable(); // asserting if the HTTP response is 422
+}
+```
+
+It's really simple, we can improve this with validations of the response messages but this is a good start to ensure the basic of your validations.
+
+### Testing retriving data -- TODO
+### Testing updating data -- TODO
+### Testing deleting data -- TODO
+
 ## Testing external services
 
 Working with micro-services or external services integrated, sometimes we need to simulate the behavior of some resources, for example, HTTP calls. The mock is a way to simulate this and ensure the quality of your feature without to need the external resource inside your test.
@@ -33,7 +83,7 @@ In my example, I'm using the Cashier to abstract the Stripe things, because this
 
 To simplify our life, I like to create the mocks inside some Trait to just 'enable' inside my tests, like this:
 
-```
+```php
 <?php
 
 namespace Tests\Traits;
@@ -64,7 +114,7 @@ In the first mock line `$this->mock(PremiumService::class, function ($mock)` we 
 
 
 Inside of mock, we have defined the behavior about each method, like:
-```
+```php
 $mock->shouldReceive('createAsStripeCustomer')->andReturn();
 ```
 
@@ -73,7 +123,7 @@ It means that when call the method `createAsStripeCustomer`, the return will be 
 
 To clarify more, the PremiumService is just one Class to abstract the `Cashier` methods, like this:
 
-```
+```php
 // PremiumService
 
 public function getActiveSubscriptions(Company $company)
