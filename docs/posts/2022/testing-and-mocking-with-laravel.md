@@ -13,7 +13,7 @@ When you do your test about something, you have the opportunity to really to thi
 
 If you try do you test as TDD, making your test first and just after write your real code. Improving and testing again, it's so more easly do a refactor in 'task time', keeping less issues to the future.
 
-![Image of TDD Flow](assets/tdd-simple-diagram-v1.jpg)
+![TDD Flow](assets/tdd-simple-diagram-v1.jpg)
 
 Here, I'll put my personal good points about, why we need write tests:
 
@@ -22,6 +22,10 @@ Here, I'll put my personal good points about, why we need write tests:
 * Improve your code design - your test is the first 'customer' of your implementation;
 * Improve your code design - you will to think better to make your code easily to be tested;
 * If you to write one test for each new bug foun, maybe you never more will take the same bugs.
+
+And look, I'm not alone thinking about Tests, look the ChatGPT - OpenAPI answer:  
+
+![Answer Of Chat-GPT to question: Why write unit tests is important in software development workflow?](assets/what-chat-gpt-think-about-unit-tests.jpeg)
 
 ## Testing a RestFul API 
 
