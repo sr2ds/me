@@ -2,6 +2,8 @@
 
 Note: this post will be bigger and I'm writing more and fixing errors weekly.
 
+
+## Why to write tests?
 Before all, let's talk a little bit about the important of automatized tests in our work.
 
 To be honest, I don't know how I lived before without this. I spent a long time testing the things manually, broking the old codes, etc. And, maybe the worst, thinking wrong.
@@ -11,9 +13,7 @@ When you do your test about something, you have the opportunity to really to thi
 
 If you try do you test as TDD, making your test first and just after write your real code. Improving and testing again, it's so more easly do a refactor in 'task time', keeping less issues to the future.
 
-![Image of TDD - IBM](assets/tdd-red-green-refactoring-v3.png)
-
-I get this image from this awesome IBM Article [5 steps of test-driven development](https://developer.ibm.com/articles/5-steps-of-test-driven-development/)
+![Image of TDD Flow](assets/tdd-simple-diagram-v1.jpg)
 
 Here, I'll put my personal good points about, why we need write tests:
 
