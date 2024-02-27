@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "David Silva - Personal Page",
   "scripts": {
+    "dev": "vitepress dev docs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"

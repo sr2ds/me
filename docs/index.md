@@ -8,6 +8,9 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
+  - title: Português - Python e um resumo profissional de 2023
+    details: A simple explanation about my process of learn Python
+    link: /posts/2024/PT-python-as-my-tool
 
   - title: Testing and Mocking with Laravel
     details: A simple explanation about mock with Stripe example

@@ -12,4 +12,4 @@ With some years more, with 16y, I started some professional courses about Linux 
 
 After that, working as Support Analyst and SysAdmin, I studied somethings about Project Management and Operations (like ITIL, COBIT, PMI, etc) and this studies and experience help me to open my mind to more things with technology and business world. In this moment, around 2014, I decided learn other things and grow-up more. I decided learn software development stuff and then started.
 
-To be continue soon... I'm doing it little bit for week.
+To be continue soon... I'm doing it bit for year. If you rush, check my LinkedIn.
