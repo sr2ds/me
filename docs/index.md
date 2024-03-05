@@ -10,7 +10,7 @@ hero:
 features:
   - title: Português - Desafios e soluções na Gestão de blogs com +50 mil artigos - IA, Rust e Vue
     details: Um artigo técnico detalhando desafios, migrações e decisões tomadas na jornada de um simples site
-    link: /posts/2024/PT-my-big-blog
+    link: /posts/2024/PT-desafios-e-solucoes-na-gestao-de-blogs-com-mais-de-50-mil-artigos-ia-rust-e-vue
 
   - title: Português - Python e um resumo profissional de 2023
     details: A simple explanation about my process of learn Python
