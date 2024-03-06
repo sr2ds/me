@@ -96,13 +96,13 @@ Meu Pull Request não foi aprovado, mas um outro cara fez um trabalho próximo d
 
 Enfim, enquanto o PR de ninguém era aprovado, eu fui usando minha própria versão. Quando o PR do amigo foi aprovado, eu voltei para versão oficial.
 
-## O quarto problema - Build demorando muito de novo e ainda comendo muita memória
+## O terceiro problema - Build demorando muito de novo e ainda comendo muita memória
 
 Leve em consideração que os conteúdos são gerados por IA, então eu podia criar mil artigos por dia quando eu queria, então o processo de crescimento dos conteúdos estava sendo bem rápido.
 
 A build voltou a demorar muito tempo e eu decidi mudar o processo de build para o Github Actions pois lá o tempo de build pode ser bem maior. Então eu estava fazendo a build no GitHub e publicando no Netlify apenas os assets já gerados, isso resolveu o problema e o projeto continuou a crescer.
 
-## O quinto problema - Criei artigos demais?
+## O quarto problema - Criei artigos demais?
 
 Agora houve uma junção de problemas que, demorava MUITO e o processo de esvaziamento de memória já não era suficiente.
 
