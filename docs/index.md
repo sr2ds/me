@@ -8,6 +8,11 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
+
+  - title: Português - Escalando de 65k para 104k artigos no Blog
+    details: A continuação da saga do Blog com IA
+    link: /posts/2024/PT-escalando-de-64k-para-100k-artigos
+
   - title: Português - Desafios e soluções na Gestão de blogs com +50 mil artigos - IA, Rust e Vue
     details: Um artigo técnico detalhando desafios, migrações e decisões tomadas na jornada de um simples site
     link: /posts/2024/PT-desafios-e-solucoes-na-gestao-de-blogs-com-mais-de-50-mil-artigos-ia-rust-e-vue
