@@ -8,7 +8,7 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
-  - title: "Dump Mental: Próximos passos do desafio Blog com +100K posts"
+  - title: "Português - Dump Mental: Próximos passos do desafio Blog com +100K posts"
     details: A continuação da saga do Blog com IA
     link: /posts/2024/PT-dump-mental-proximos-passos-do-desafio-blog-com-100k-posts
 
