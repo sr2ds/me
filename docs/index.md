@@ -8,9 +8,15 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
+  - title: "Português - Dump Mental 2: Experiência escrevendo meu próprio CLI"
+    details: A continuação da saga do Blog com IA
+    link: /posts/2024/PT-dump-mental-blogs-parte-2.md
+    date: 2024-05-29
+
   - title: "Português - Dump Mental: Próximos passos do desafio Blog com +100K posts"
     details: A continuação da saga do Blog com IA
     link: /posts/2024/PT-dump-mental-proximos-passos-do-desafio-blog-com-100k-posts
+    date: 2024-05-10
 
   - title: Português - Escalando de 65k para 104k artigos no Blog
     details: A continuação da saga do Blog com IA
