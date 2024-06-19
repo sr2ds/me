@@ -8,6 +8,11 @@ hero:
   tagline: Having fun with tech since of 2010
 
 features:
+  - title: "Português - Sharding Database e SQLite"
+    details: Aprendizados obtidos ao separar um banco sqlite em vários arquivos
+    link: /posts/2024/PT-sharding-database-e-sqlite.md
+    date: 2024-06-19
+
   - title: "Português - Dump Mental 2: Experiência escrevendo meu próprio CLI"
     details: A continuação da saga do Blog com IA
     link: /posts/2024/PT-dump-mental-blogs-parte-2.md
