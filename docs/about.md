@@ -2,7 +2,7 @@
 
 Hello! I'm David Silva :) I'm Brazilian and I'm based in São Paulo.
 
-I'm working, studying and having fun with technology since 2010.
+I've been working, studying, and having fun with technology since I was 13.
 
 In my routine have music and some coffee, like the most of developers I guess. Sometimes some Brazilian musics, sometimes some LoFi to keep concentration and variated styles.
 I like read some book, currently more books about some old filosophy but also I like the self improvement books and business.

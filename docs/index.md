@@ -5,9 +5,17 @@ title: Home
 hero:
   name: Software Engineer
   text: ~ forever learner
-  tagline: Having fun with tech since of 2010
+  tagline: Having fun with tech since I was born
 
 features:
+
+    
+
+  - title: "Português - 2025 e um novo/velho hobby: Pentest"
+    details: Voltei a brincar de Pentester
+    link: /posts/2025/01/2025-e-um-novo-velho-hobby-pentest.md
+    date: 2025-01-16
+
   - title: "Português - Sharding Database e SQLite"
     details: Aprendizados obtidos ao separar um banco sqlite em vários arquivos
     link: /posts/2024/PT-sharding-database-e-sqlite.md
