@@ -8,38 +8,40 @@ hero:
   tagline: Having fun with tech since I was born
 
 features:
+  - title: "Hack-the-box Penetration Testing Process"
+    details: Brincando mais com Pentest
+    link: /posts/2025/01/23/hack-the-box-penetration-testing-process.md
+    date: 2025-01-23
 
-    
-
-  - title: "Português - 2025 e um novo/velho hobby: Pentest"
+  - title: "2025 e um novo/velho hobby: Pentest"
     details: Voltei a brincar de Pentester
-    link: /posts/2025/01/2025-e-um-novo-velho-hobby-pentest.md
+    link: /posts/2025/01/16/2025-e-um-novo-velho-hobby-pentest.md
     date: 2025-01-16
 
-  - title: "Português - Sharding Database e SQLite"
+  - title: "Sharding Database e SQLite"
     details: Aprendizados obtidos ao separar um banco sqlite em vários arquivos
     link: /posts/2024/PT-sharding-database-e-sqlite.md
     date: 2024-06-19
 
-  - title: "Português - Dump Mental 2: Experiência escrevendo meu próprio CLI"
+  - title: "Dump Mental 2: Experiência escrevendo meu próprio CLI"
     details: A continuação da saga do Blog com IA
     link: /posts/2024/PT-dump-mental-blogs-parte-2.md
     date: 2024-05-29
 
-  - title: "Português - Dump Mental: Próximos passos do desafio Blog com +100K posts"
+  - title: "Dump Mental: Próximos passos do desafio Blog com +100K posts"
     details: A continuação da saga do Blog com IA
     link: /posts/2024/PT-dump-mental-proximos-passos-do-desafio-blog-com-100k-posts
     date: 2024-05-10
 
-  - title: Português - Escalando de 65k para 104k artigos no Blog
+  - title: Escalando de 65k para 104k artigos no Blog
     details: A continuação da saga do Blog com IA
     link: /posts/2024/PT-escalando-de-64k-para-100k-artigos
 
-  - title: Português - Desafios e soluções na Gestão de blogs com +50 mil artigos - IA, Rust e Vue
+  - title: Desafios e soluções na Gestão de blogs com +50 mil artigos - IA, Rust e Vue
     details: Um artigo técnico detalhando desafios, migrações e decisões tomadas na jornada de um simples site
     link: /posts/2024/PT-desafios-e-solucoes-na-gestao-de-blogs-com-mais-de-50-mil-artigos-ia-rust-e-vue
 
-  - title: Português - Python e um resumo profissional de 2023
+  - title: Python e um resumo profissional de 2023
     details: A simple explanation about my process of learn Python
     link: /posts/2024/PT-python-as-my-tool
 
@@ -51,11 +53,11 @@ features:
     details: Learn a little bit about Laravel Pint
     link: /posts/2022/ensure-a-beaut-code-with-laravel-pint
 
-  - title: Português - CheckList to do a good Rest API
+  - title: CheckList to do a good Rest API
     details: Some ideas about what one good api need
     link: /posts/2022/PT-checklist-to-API-Rest.md
     
-  - title: Português - My experience with Rust Language
+  - title: My experience with Rust Language
     details: I wrote a little abit about my experience learning Rust
     link: /posts/2022/PT-rust-language-and-me
     
