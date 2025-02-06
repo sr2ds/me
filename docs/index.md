@@ -8,6 +8,11 @@ hero:
   tagline: Having fun with tech since I was born
 
 features:
+  - title: "Hack-the-box Getting Started"
+    details: Um dia serei Pentester?
+    link: /posts/2025/02/06/hack-the-box-getting-started.md
+    date: 2025-02-06
+
   - title: "Hack-the-box Penetration Testing Process"
     details: Brincando mais com Pentest
     link: /posts/2025/01/23/hack-the-box-penetration-testing-process.md
