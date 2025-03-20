@@ -8,21 +8,6 @@ hero:
   tagline: Having fun with tech since I was born
 
 features:
-  - title: "Hack-the-box Getting Started"
-    details: Um dia serei Pentester?
-    link: /posts/2025/02/06/hack-the-box-getting-started.md
-    date: 2025-02-06
-
-  - title: "Hack-the-box Penetration Testing Process"
-    details: Brincando mais com Pentest
-    link: /posts/2025/01/23/hack-the-box-penetration-testing-process.md
-    date: 2025-01-23
-
-  - title: "2025 e um novo/velho hobby: Pentest"
-    details: Voltei a brincar de Pentester
-    link: /posts/2025/01/16/2025-e-um-novo-velho-hobby-pentest.md
-    date: 2025-01-16
-
   - title: "Sharding Database e SQLite"
     details: Aprendizados obtidos ao separar um banco sqlite em vários arquivos
     link: /posts/2024/PT-sharding-database-e-sqlite.md
